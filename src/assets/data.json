@@ -10,21 +10,21 @@
       {
         "date": "20/10/2022",
         "title": "Coffee Shop",
-        "description": "I created this cofee shop website Home page for my portfolio. The design Inspiration was taken from freepik.",
+        "description": "I created this coffee shop website Home page for my portfolio. The design Inspiration was taken from freepik.",
         "url": "https://ccoffee-shop.netlify.app",
         "imgSrc": "https://c.ndtvimg.com/coffee_625x300_1528804048854.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=886"
       },
       {
         "date": "23/10/2022",
         "title": "LM COMP",
-        "description": "landing page design and developed for a tech based job. its made using BootStrap ",
+        "description": "Landing page design and development for a tech-based job. It's made using BootStrap",
         "url": "https://landing-page-we-are-hiring.netlify.app",
         "imgSrc": "https://github.com/Bilal193/landing-page-we-are-hiring/blob/main/images/ad-girl.png?raw=true"
       },
       {
         "date": "05/11/2022",
         "title": "TechVit",
-        "description": "This website is a Tech Startup website.Its a single page web app made using react js. It is a sample to add in my web development portfolio.",
+        "description": "This website is a Tech Startup website. It's a single-page web app made using react js. It is a sample to add to my web development portfolio.",
         "url": "https://tech-vit.netlify.app",
         "imgSrc": "https://i.pcmag.com/imagery/lineups/05eGqoRcVFRa6mqdHas610v-1.fit_lim.size_768x432.v1569492758.jpg"
       },
@@ -32,7 +32,7 @@
       {
         "date": "08/11/2022",
         "title": "CryptoX",
-        "description": "Crypto web-app made using react js. it has Exchanges and Coins sections having a list of all the major crypto Exchanges, currencies and detailed graphs. ",
+        "description": "Crypto web app made using react js. It has Exchanges and Coins sections having a list of all the major crypto Exchanges, currencies, and detailed graphs. ",
         "url": "https://cryptox-app.netlify.app",
         "imgSrc": "https://bernardmarr.com/img/What%20is%20the%20Difference%20Between%20Blockchain%20And%20Bitcoin.png"
       },
@@ -40,7 +40,7 @@
       {
         "date": "20/11/2022",
         "title": "Shopping Cart",
-        "description": "A simple Shopping Cart App made using react js. its a single page application. ",
+        "description": "A simple Shopping Cart App made using react js. It's a single-page application. ",
         "url": "https://shopping-cart-by-bilal.netlify.app",
         "imgSrc": "https://nationaltoday.com/wp-content/uploads/2021/06/Shopping-Cart-Day-1-640x514.jpg"
       },
