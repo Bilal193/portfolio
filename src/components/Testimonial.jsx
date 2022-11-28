@@ -22,12 +22,10 @@ const Testimonial = () => {
     <div id='testimonial'>
       <h2>Testimonials</h2>
       <section>
-        {testtimonialsList.map(i => (<TestimonialCard name={i.name} feedback={i.feedback} />
+        {testtimonialsList.map(i => (<TestimonialCard name={i.name} feedback={i.feedback} key={i.id} />
 
         ))}
-        {/* <TestimonialCard name={'Patric'} feedback={"you are so awesome, I love your services. 100% satisfied and happy with the services"}/>
-            <TestimonialCard name={'Patric'} feedback={"you are so awesome, I love your services. 100% satisfied and happy with the services"}/>
-            <TestimonialCard name={'Patric'} feedback={"you are so awesome, I love your services. 100% satisfied and happy with the services"}/> */}
+        
       </section>
     </div>
   )
@@ -35,7 +33,7 @@ const Testimonial = () => {
 
 const TestimonialCard = ({ name, feedback }) => (
   <article>
-    <img src="http://cdn-icons-png.flaticon.com/512/149/149071.png" alt="client" />
+    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="client" />
     <h4>{name}</h4>
     <p>{feedback}</p>
   </article>
