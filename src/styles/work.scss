@@ -1,75 +1,118 @@
 @import "variables.scss";
 
 #work {
+  width: 100%;
+  height: auto;
+  padding: 4rem $p;
+  padding-bottom: 0;
+  > h2 {
+    font: 800 2.5rem $text2;
+    width: fit-content;
+    border-bottom: 2px solid $color6_1;
+    padding: 0.5rem;
+    margin: auto;
+  }
+
+  > section {
+    margin-top: 3rem;
     width: 100%;
-    height: auto;
-    padding: 4rem $p;
-    padding-bottom: 0;
-    > h2 {
-      font: 800 2.5rem $text2;
-      width: fit-content;
-      border-bottom: 2px solid $color6_1;
-      padding: 0.5rem;
-      margin: auto;
-    }
-  
-    > section {
-      margin-top: 3rem;
+    height: 100%;
+    background-color: $color5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    padding-top: 3rem;
+
+    > article {
       width: 100%;
-      height: 100%;
+      height: auto;
+    }
+
+    .workItem {
+      overflow-y: auto;
+      height: auto;
+      width: 100%;
+      margin: auto;
       background-color: $color5;
       display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 5rem;
-  
-      > article {
-        width: 100%;
-        height: 100%;
+      flex-direction: column;
+      color: white;
+      > h3 {
+        letter-spacing: 3px;
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
       }
-  
-      .workItem {
-        overflow-y: auto;
-        height: 100%;
-        width: 100%;
-        margin: auto;
-        background-color: $color4;
-        display: flex;
-        padding: 2.5rem;
-        box-shadow: 0 0 20px 5px $color1;
-  
-        > img {
-          border-radius: 20px;
-          width: 45%;
-          object-fit: cover;
+      > p {
+        letter-spacing: 2.5px;
+        line-height: 150%;
+        margin: 1rem;
+        text-align: center;
+        >a{
+          color: white;
+          text-decoration: none;
+          font-weight: 600;
+          letter-spacing: 3px;
+
         }
-  
-        > aside {
-          width: 55%;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-  
-          > p {
-            letter-spacing: 3px;
-            line-height: 180%;
-            margin: 2rem;
-          }
-          > a {
-            background-color: $color3;
-            padding: 0.7rem 2rem;
-            margin: 2rem;
-            color: $color4;
-            transition: all 0.5s;
-            &:hover {
-              background-color: $color3_1;
-            }
-          }
-        }
+      }
+
+      >a > img {
+        border-radius: 20px;
+        height: 460px;
+        object-fit: contain;
       }
     }
   }
-  .carousel .control-dots .dot{
-    background-color: black;
+}
+.buttondiv {
+  top: 0;
+  bottom: 0;
+  left: -60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  padding: 3;
+  opacity: 0.3;
+  cursor: pointer;
+  z-index: 20;
+  &:hover {
+    opacity: 0.8;
   }
+  .previcon-style {
+    width: 45px;
+    height: 45px;
+    color: white;
+  }
+}
+.buttondivnext {
+  top: 0;
+  bottom: 0;
+  right: -60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  padding: 3;
+  opacity: 0.3;
+  cursor: pointer;
+  z-index: 20;
+  &:hover {
+    opacity: 0.8;
+  }
+  .nexticon-style {
+    height: 45px;
+    width: 45px;
+    color: white;
+  }
+}
+.carousel.carousel-slider{
+  overflow: visible !important;
+}
+@media (min-width: 960px){
+.carousel .control-dots {
+    bottom: 1rem;
+}
+}
