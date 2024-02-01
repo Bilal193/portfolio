@@ -1,6 +1,8 @@
 ---
+
 deployment:
   tasks:
     - export DEPLOYPATH=/home/sporzldy/bilalbytes.com/
     - /bin/cp * $DEPLOYPATH
+    - npm install
     - npm run build
