@@ -2,6 +2,13 @@
     "projects": [
       {
         "date": "17/10/2022",
+        "title": "13 Seeds",
+        "description": "I created a stylish and easy-to-use Shopify store by blending looks and practicality. Using my expertise as a Shopify developer, I brought my client's ideas to reality, and I'm excited to reveal the features: personalized design, user-friendly interface, special functions, smooth performance, and integrated payments.",
+        "url": "https://live-kitchen.netlify.app/",
+        "imgSrc": "https://starkcc.sirv.com/Images/13%20seeds.png"
+      },
+      {
+        "date": "17/10/2022",
         "title": "Live Kitchen",
         "description": "Live Kitchen website design and development.",
         "url": "https://live-kitchen.netlify.app/",

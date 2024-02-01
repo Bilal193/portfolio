@@ -12,13 +12,13 @@ const Work = () => {
         <section>
             <article>
                 <Carousel
-                showArrows={false}
-                showIndicators={false}
+                showArrows={true}
+                showIndicators={true}
                 showStatus={false}
                 showThumbs={false}
                 interval={2000}
                 infiniteLoop={true}
-                autoPlay={true}
+                autoPlay={false}
                 >
                     {
                         data.projects.map(i=>(

@@ -1,0 +1,29 @@
+{
+    "jobs": [
+      {
+        "dateJoin": "Jan 2022",
+        "dateLeave": "Present",
+        "title": "Full Stack Developer",
+        "company": "Upwork"
+      },
+      {
+        "dateJoin": "Apr 2023",
+        "dateLeave": "Present",
+        "title": "Shopify Developer",
+        "company": "UNIT 203"
+      },
+      {
+        "dateJoin": "May 2023",
+        "dateLeave": "Jul 2023",
+        "title": "Shopify Developer",
+        "company": "Ecom Experts"
+      },
+      {
+        "dateJoin": "Jan 2022",
+        "dateLeave": "May 2023",
+        "title": "Full Stack Developer",
+        "company": "Innovant Zone"
+      }
+
+    ]
+  }

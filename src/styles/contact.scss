@@ -17,14 +17,14 @@
         height: 100%;
         > h2 {
           text-align: center;
-          font: 100 2.7rem $text2;
-          letter-spacing: 5px;
+          font: 300 2.7rem $text2;
+          letter-spacing: 2px;
           text-transform: uppercase;
           margin: 2rem;
         }
         > input,
         > button {
-          padding: 0.8rem;
+          padding: 1rem;
           width: 40%;
           outline: none;
           font: 400 0.9rem $text1;
@@ -38,7 +38,7 @@
           color: $color4;
           font: 600 1rem $text1;
           text-transform: uppercase;
-          margin: 3rem;
+          margin: 2rem;
           &:hover {
             background-color: $color3_1;
           }

@@ -5,11 +5,12 @@ import {
   AiOutlineArrowUp,
 } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
-import me from "../assets/myimg.png"
+import me from "../assets/myimg.png";
+  import 'react-toastify/dist/ReactToastify.css';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="footer">
       <div>
         <img
           src={me}
@@ -22,15 +23,14 @@ const Footer = () => {
 
       <aside>
         <h2>Social Media</h2>
-
         <article>
-          <a href="https://www.linkedin.com/in/bilalarshad786/" target={"blank"}>
+          <a href="https://www.linkedin.com/in/bilalarshad786/" target="blank">
             <AiFillLinkedin />
           </a>
-          <a href="https://wa.me/923448725393?text=Hi%2C%20Bilal!" target={"blank"}>
+          <a href="https://wa.me/923448725393?text=Hello%2C%20I%20have%20a%20question%20related%20to%20your%20services." target="blank">
             <IoLogoWhatsapp />
           </a>
-          <a href="https://github.com/Bilal193" target={"blank"}>
+          <a href="https://github.com/Bilal193" target="blank">
             <AiFillGithub />
           </a>
         </article>
