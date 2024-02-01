@@ -1,12 +1,11 @@
 @import "variables.scss";
 #testimonial {
     width: 100%;
-    padding: $p;
+    padding: 3rem $p;
     background-color: $color4;
     color: $color5;
-  
     > h2 {
-      font: 700 2.5rem $text2;
+      font: 800 2.5rem $text2;
       text-align: center;
       margin-bottom: 3rem;
     }
@@ -15,22 +14,21 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      width: 95%;
+      width: 100%;
       margin: auto;
       height: 40rem;
-      padding: 8rem;
+      padding: 125px 3rem 75px;
       background-color: $color1;
-      gap: 20px;
   
       > article {
         height: 100%;
-        width: 30%;
+        width: 32%;
         background-color: $color4;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 2rem;
+        padding: 1.5rem;
         position: relative;
         img {
           top: 0%;
@@ -52,7 +50,6 @@
           font-size: 0.9rem;
           line-height: 160%;
           text-align: center;
-          overflow: auto;
         }
       }
     }

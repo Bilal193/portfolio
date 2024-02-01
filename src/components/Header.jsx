@@ -1,5 +1,6 @@
 import React from 'react';
-import {AiOutlineMenu} from "react-icons/ai"
+import {AiOutlineMenu} from "react-icons/ai";
+import bilallogo from '../assets/logo bilal.png';
 
 
 const Header = ({menuOpen,setMenuOpen}) => {
@@ -24,17 +25,17 @@ export const ExpendableNAvBar = ({menuOpen,setMenuOpen}) => {
 
 export const NavContent=({setMenuOpen})=>(
 <>
-<h2>Muhammad Bilal</h2>
+<img src={bilallogo} alt="" />
     <div>
         <a onClick={()=>setMenuOpen(false)} href="#home">Home</a>
-        <a onClick={()=>setMenuOpen(false)} href="#work">Work</a>
+        <a onClick={()=>setMenuOpen(false)} href="#work">Portfolio</a>
         <a onClick={()=>setMenuOpen(false)} href="#timeline">Experience</a>
-        <a onClick={()=>setMenuOpen(false)} href="#services">services</a>
-        <a onClick={()=>setMenuOpen(false)} href="#testimonial">Testimonial</a>
-        <a onClick={()=>setMenuOpen(false)} href="#contact">Contact</a>
+        <a onClick={()=>setMenuOpen(false)} href="#services">Services</a>
+        <a onClick={()=>setMenuOpen(false)} href="#testimonial">Testimonials</a>
+        <a onClick={()=>setMenuOpen(false)} href="https://www.bilalbytes.com/blogs" target='blank'>Blogs</a>
     </div>
-    <a href="mailto:bilalarshad.me38@gmail.com">
-        <button>Email</button>
+    <a onClick={()=>setMenuOpen(false)} href="#contact">
+        <button>Contact</button>
     </a>
 </>
 )

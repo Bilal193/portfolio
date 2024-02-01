@@ -9,14 +9,14 @@ const Home = () => {
     const clientCount = useRef(null);
     const projectCount = useRef(null);
     const animationClientsCount = () => {
-        animate(0, 15, {
+        animate(0, 25, {
             duration: 1,
             onUpdate: (e) => (clientCount.current.textContent = e.toFixed()),
 
         });
     };
     const animationProjectsCount = () => {
-        animate(0, 20, {
+        animate(0, 50, {
             duration: 1,
             onUpdate: (e) => (projectCount.current.textContent = e.toFixed()),
 
@@ -56,16 +56,17 @@ const Home = () => {
                     </motion.h1>
 
                     <Typewriter options={{
-                        strings: ["A Developer", "A Designer", "A Creater", "An Engineer"],
+                        strings: ["A Web Developer","A Shopify Developer", "A Designer", "A Creater", "An Engineer"],
                         autoStart: true,
                         loop: true,
-                        delay: 40,
+                        delay: 80,
+                        pauseFor: 2000,
                         wrapperClassName: "typewriterpara"
                     }}
                     />
 
                     <div>
-                        <a href="mailto:bilalarshad.me38@gmail.com">Hire Me</a>
+                        <a href="#contact">Contact Me</a>
                         <a href="#work">Projects <BsArrowUpRight /></a>
                     </div>
                     <article>

@@ -2,6 +2,76 @@
     "projects": [
       {
         "date": "17/10/2022",
+        "title": "13 Seeds",
+        "description": "I created a stylish and easy-to-use Shopify store by blending looks and practicality. Using my expertise as a Shopify developer, I brought my client's ideas to reality, and I'm excited to reveal the features: personalized design, user-friendly interface, special functions, smooth performance, and integrated payments.",
+        "url": "https://13seeds.com.au/",
+        "imgSrc": "https://starkcc.sirv.com/Images/Portfolio%20images/13XSEEDS.png"
+      },
+      {
+        "date": "17/10/2022",
+        "title": "Barton Watch Bands",
+        "description": "",
+        "url": "https://www.bartonwatchbands.com/",
+        "imgSrc": "https://starkcc.sirv.com/Images/Portfolio%20images/BATCH.png"
+      },
+      {
+        "date": "17/10/2022",
+        "title": "BBA by Suleman",
+        "description": "",
+        "url": "https://bbabysuleman.com/",
+        "imgSrc": "https://starkcc.sirv.com/Images/Portfolio%20images/BBA.png"
+      },
+      {
+        "date": "17/10/2022",
+        "title": "Disrupt Sports",
+        "description": "",
+        "url": "https://branded.disruptsports.com/",
+        "imgSrc": "https://starkcc.sirv.com/Images/Portfolio%20images/DISPURT.png"
+      },
+      {
+        "date": "17/10/2022",
+        "title": "Edible Beauty",
+        "description": "",
+        "url": "https://ediblebeautyaustralia.com/",
+        "imgSrc": "https://starkcc.sirv.com/Images/Portfolio%20images/EDIBLE.png"
+      },
+      {
+        "date": "17/10/2022",
+        "title": "Love Island Shop",
+        "description": "",
+        "url": "https://loveislandshop.co.uk/",
+        "imgSrc": "https://starkcc.sirv.com/Images/Portfolio%20images/LOVE%20ISLAND.png"
+      },
+      {
+        "date": "17/10/2022",
+        "title": "Starfire Direct",
+        "description": "",
+        "url": "https://starfiredirect.com/",
+        "imgSrc": "https://starkcc.sirv.com/Images/Portfolio%20images/STARFIELDS.png"
+      },
+      {
+        "date": "17/10/2022",
+        "title": "Tooney Teez",
+        "description": "",
+        "url": "https://www.tooneyteez.com/",
+        "imgSrc": "https://starkcc.sirv.com/Images/Portfolio%20images/TONNEY.png"
+      },
+      {
+        "date": "17/10/2022",
+        "title": "Wild Fang",
+        "description": "",
+        "url": "https://www.wildfang.com/",
+        "imgSrc": "https://starkcc.sirv.com/Images/Portfolio%20images/WILDFANG.png"
+      },
+      {
+        "date": "17/10/2022",
+        "title": "Harps & Seb",
+        "description": "",
+        "url": "https://harpsandseb.com/",
+        "imgSrc": "https://starkcc.sirv.com/Images/Portfolio%20images/WhatsApp%20Image%202024-02-01%20at%2016.34.22_1a3ff486.jpg"
+      },
+      {
+        "date": "17/10/2022",
         "title": "Live Kitchen",
         "description": "Live Kitchen website design and development.",
         "url": "https://live-kitchen.netlify.app/",
