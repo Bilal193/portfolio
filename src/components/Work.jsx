@@ -8,7 +8,7 @@ import data from "../assets/data.json";
 
 const Work = () => {
   return (
-    <div id='work'>
+    <div id='work' className='page-width'>
         <h2>Work</h2>
         <section>
             <article>

@@ -26,7 +26,7 @@ const Services = () => {
         
     };
     return (
-        <div id='services'>
+        <div id='services' className='page-width'>
             <h2>Services</h2>
             <section>
                 <motion.div className='serviceBox1' whileInView={animations.whileInView} initial={animations.one} >

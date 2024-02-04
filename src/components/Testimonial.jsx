@@ -19,7 +19,7 @@ const Testimonial = () => {
     },
   ];
   return (
-    <div id='testimonial'>
+    <div id='testimonial' className='page-width'>
       <h2>Testimonials</h2>
       <section>
         {testtimonialsList.map(i => (<TestimonialCard name={i.name} feedback={i.feedback} key={i.id} />

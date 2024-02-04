@@ -3,7 +3,7 @@ import workHistory from "../assets/work_history.json"
 
 const Timeline = () => {
   return (
-    <div id='timeline'>
+    <div id='timeline' className='page-width'>
       <div className='timelineBox'>
 {
   workHistory.jobs.map((item,index)=>(

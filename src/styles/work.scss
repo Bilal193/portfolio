@@ -59,8 +59,8 @@
       }
 
       >a > img {
-        border-radius: 20px;
-        height: 460px;
+        height: 33vmax;
+        max-height: 490px;
         object-fit: contain;
       }
     }

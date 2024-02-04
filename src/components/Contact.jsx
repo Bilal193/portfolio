@@ -66,7 +66,7 @@ const animations={
 
 
   return (
-    <div id='contact'>
+    <div id='contact' className='page-width'>
 <section>
     <motion.form {...animations.form} action="" onSubmit={submitHandler}>
         <h2>Contact Me</h2>
