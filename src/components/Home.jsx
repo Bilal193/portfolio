@@ -72,7 +72,7 @@ const Home = () => {
                         <p>
                             +<motion.span whileInView={animationClientsCount} ref={clientCount}></motion.span>
                         </p>
-                        <span>Clients Worldwide</span>
+                        <span className='padding_bottom'>Clients Worldwide</span>
                     </article>
                     <aside>
                         <article data-margin>
@@ -82,7 +82,7 @@ const Home = () => {
 
                                 </motion.span>
                             </p>
-                            <span>Jobs Completed</span>
+                            <span className='padding_bottom'>Jobs Completed</span>
                         </article>
                         <article data-special>
                             <p>
