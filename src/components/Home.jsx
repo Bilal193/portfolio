@@ -1,5 +1,4 @@
 import React, { useRef } from 'react'
-
 import { animate, motion } from "framer-motion"
 import Typewriter from "typewriter-effect"
 import { BsArrowUpRight, BsChevronDown } from "react-icons/bs"
@@ -47,7 +46,7 @@ const Home = () => {
         }
     }
     return (
-        <div id='home'>
+        <div id='home' className='page-width'>
             <section>
                 <div>
 
@@ -76,7 +75,7 @@ const Home = () => {
                         <span>Clients Worldwide</span>
                     </article>
                     <aside>
-                        <article>
+                        <article data-margin>
                             <p>
                                 +<motion.span whileInView={animationProjectsCount} ref={projectCount}>
 

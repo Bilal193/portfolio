@@ -4,10 +4,17 @@ import bilallogo from '../assets/logo bilal.png';
 
 
 const Header = ({menuOpen,setMenuOpen}) => {
+if(menuOpen){
+  document.body.style.overflow="hidden";
+}
+else{
+  document.body.style.overflow="auto";
+}
+
   return (
     <>
-    <button onClick={()=>setMenuOpen(!menuOpen)} className='navBtn'><AiOutlineMenu/></button>
-    <nav>
+    <button onClick={()=>setMenuOpen(!menuOpen)} className={`navBtn ${menuOpen?"navBtnOpen":""}`}><AiOutlineMenu/></button>
+    <nav className='page-width'>
     <NavContent setMenuOpen={setMenuOpen} />
     
     </nav>
@@ -25,7 +32,8 @@ export const ExpendableNAvBar = ({menuOpen,setMenuOpen}) => {
 
 export const NavContent=({setMenuOpen})=>(
 <>
-<img src={bilallogo} alt="" />
+<a className='show-mob' onClick={()=>setMenuOpen(false)} href="#home"><img src={bilallogo} alt="" /></a>
+
     <div>
         <a onClick={()=>setMenuOpen(false)} href="#home">Home</a>
         <a onClick={()=>setMenuOpen(false)} href="#work">Portfolio</a>

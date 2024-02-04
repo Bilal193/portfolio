@@ -33,4 +33,8 @@ body{
     background-color: rgb(191, 191, 191) !important;
     cursor: not-allowed !important;
   }
+.page-width{
+    max-width: $pageWidth;
+    margin: 0 auto;
+}
   

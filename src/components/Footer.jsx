@@ -10,7 +10,7 @@ import me from "../assets/myimg.png";
 
 const Footer = () => {
   return (
-    <footer id="footer">
+    <footer id="footer" className="page-width">
       <div>
         <img
           src={me}
